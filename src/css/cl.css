@@ -1,0 +1,22 @@
+#Mcontainer{
+	border:5px solid #ff4500;
+	width:100%;
+	height:100%;
+	box-sizing: border-box;
+}
+.padding0{padding:0px;}
+.margin0{margin:0px;}
+#MenuBar{
+	box-sizing: border-box;
+	width:100%;
+	height:5%;
+	max-height:150px;
+	min-height:40px;
+	border:2px solid green;
+}
+#sheetsContainer{
+	box-sizing: border-box;
+	width:100%;
+	height:calc(100% - .Menubar.height);
+	border:2px solid violet;
+}
